@@ -1,0 +1,10 @@
+../Core/Src/freertos.c:89:6:vApplicationStackOverflowHook	16	static,ignoring_inline_asm
+../Core/Src/freertos.c:127:6:vApplicationGetIdleTaskMemory	24	static
+../Core/Src/freertos.c:139:6:vApplicationGetTimerTaskMemory	24	static
+../Core/Src/freertos.c:150:6:MX_FREERTOS_Init	88	static
+../Core/Src/freertos.c:223:6:TaskFlkrRunner	24	static
+../Core/Src/freertos.c:245:6:TaskSnapRunner	56	static
+../Core/Src/freertos.c:344:6:taskAIRunner	56	dynamic
+../Core/Src/freertos.c:399:9:hal_uart_ifx_send	24	static
+../Core/Src/freertos.c:404:9:hal_uart_ifx_recv	32	static
+../Core/Src/freertos.c:412:6:HAL_GPIO_EXTI_Callback	16	static

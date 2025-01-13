@@ -1,0 +1,3 @@
+../Core/Src/ImC/uartBufferIT.c:20:6:uartBufferInit	8	static
+../Core/Src/ImC/uartBufferIT.c:27:6:uartBufferReset	8	static
+../Core/Src/ImC/uartBufferIT.c:32:6:HAL_UARTEx_RxEventCallback	16	static

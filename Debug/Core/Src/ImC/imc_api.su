@@ -1,0 +1,11 @@
+../Core/Src/ImC/imc_api.c:28:6:turn_on_leds	8	static
+../Core/Src/ImC/imc_api.c:35:6:turn_off_leds	8	static
+../Core/Src/ImC/imc_api.c:43:6:imc_led_on	32	static
+../Core/Src/ImC/imc_api.c:78:6:imc_led_blink	24	static
+../Core/Src/ImC/imc_api.c:85:9:imc_sc03mpd_init	16	static
+../Core/Src/ImC/imc_api.c:125:9:imc_sc03mpd_capture	40	static
+../Core/Src/ImC/imc_api.c:213:9:imc_sc03mpd_reset	16	static
+../Core/Src/ImC/imc_api.c:225:6:imc_sbc_power_off	16	static
+../Core/Src/ImC/imc_api.c:232:6:imc_cam_power_off	16	static
+../Core/Src/ImC/imc_api.c:239:6:imc_cam_power_on	16	static
+../Core/Src/ImC/imc_api.c:251:9:imc_get_energy_level	16	static
