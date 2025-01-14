@@ -23,7 +23,7 @@ This repository contains an embedded AI project for STM32L4 microcontrollers, id
 ## Quick Start Guide
 1. **Clone or Download the Repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/khosbakhti/tflite_project.git
    ```
 2. **Open in STM32CubeIDE**
    - Launch STM32CubeIDE.
