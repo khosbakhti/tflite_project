@@ -1,7 +1,11 @@
 # STM32L4 TFLite Embedded AI Project
 
-This repository contains an embedded AI project designed for STM32L4 microcontrollers, making it well-suited for low-power applications. The project utilizes the TensorFlow Lite for Microcontrollers (TFLite) library to execute AI models efficiently on resource-constrained devices. Development and integration were carried out using STM32CubeIDE.
-The core AI functionality is implemented within the tensorflow_lib library, which handles the actual computation and inference of the AI model. To demonstrate practical usage, an example implementation can be found in the taskAiRunner function, located in core/src/freertos.c. This function serves as the execution point for running the model within a FreeRTOS-based environment, showcasing how AI inference can be integrated into real-time embedded applications.
+## Overview 
+- This repository contains an embedded AI project designed for STM32L4 microcontrollers, making it well-suited for low-power applications.
+- The project utilizes the TensorFlow Lite for Microcontrollers (TFLite) library to execute AI models efficiently on resource-constrained devices.
+- Development and integration were carried out using STM32CubeIDE.
+- The core AI functionality is implemented within the tensorflow_lib library, which handles the actual computation and inference of the AI model.
+- To demonstrate practical usage, an example implementation can be found in the taskAiRunner function, located in core/src/freertos.c. This function serves as the execution point for running the model within a FreeRTOS-based environment, showcasing how AI inference can be integrated into real-time embedded applications.
 
 ## Features
 - **Platform**: STM32L4 microcontrollers (tested on STM32L496ZGTx).
