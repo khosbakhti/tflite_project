@@ -76,4 +76,3 @@ This project includes support for camera input processing. The following details
 
 ## Support
 If you encounter issues, please open an issue in this repository or consult the STM32 and TensorFlow Lite documentation.
-ㅇㅇ
