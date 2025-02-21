@@ -1,6 +1,7 @@
 # STM32L4 TFLite Embedded AI Project
 
-This repository contains an embedded AI project for STM32L4 microcontrollers, ideal for low-power applications. The project leverages the TensorFlow Lite for Microcontrollers (TFLite) library to execute AI models on constrained devices. The development was done using STM32CubeIDE.
+This repository contains an embedded AI project designed for STM32L4 microcontrollers, making it well-suited for low-power applications. The project utilizes the TensorFlow Lite for Microcontrollers (TFLite) library to execute AI models efficiently on resource-constrained devices. Development and integration were carried out using STM32CubeIDE.
+The core AI functionality is implemented within the tensorflow_lib library, which handles the actual computation and inference of the AI model. To demonstrate practical usage, an example implementation can be found in the taskAiRunner function, located in core/src/freertos.c. This function serves as the execution point for running the model within a FreeRTOS-based environment, showcasing how AI inference can be integrated into real-time embedded applications.
 
 ## Features
 - **Platform**: STM32L4 microcontrollers (tested on STM32L496ZGTx).
@@ -61,6 +62,9 @@ This project includes support for camera input processing. The following details
 - **AI Model**: Replace the model in `Core/` with your custom TFLite model.
 - **Peripheral Configuration**: Modify the `.ioc` file and regenerate the code to configure additional peripherals.
 - **Memory Configuration**: Adjust memory layout in `STM32L496ZGTX_FLASH.ld` or `STM32L496ZGTX_RAM.ld` if required.
+
+## Acknowledgement
+- Institute of Information and Communications Technology Planning and Evaluation Grant through the Ministry of Science and ICT of Korea, Development of Core Technology for Autonomous Energy-driven Computing System SW in Power-Instable Environment, under Grant 2021-0-00360
 
 ## References
 - [STM32CubeIDE Documentation](https://www.st.com/en/development-tools/stm32cubeide.html)
